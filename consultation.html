@@ -1,0 +1,40 @@
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Запись на консультацию</title>
+</head>
+<body>
+    <header>
+        <h1>Зеленый Уголок</h1>
+        <nav>
+            <ul>
+                <a href="index.html">Главная</a></li>
+                <a href="services.html">Услуги</a></li>
+                <a href="registration.html">Регистрация</a></li>
+                <a href="login.html">Авторизация</a></li>
+                <a href="consultation.html">Запись на консультацию</a></li>
+            </ul>
+        </nav>
+    </header>
+    <div class="modal-content">
+      <h1>Запись на консультацию</h1>
+      <br />
+        <form action="schedule.php" method="POST">
+            <input type="datetime-local" id="consultation_date" name="consultation_date" required>
+            <button type="submit">Записаться</button>
+        </form>
+    </div>
+    <section>
+      <h2>Контакты</h2>
+      <p>Телефон: +7 (123) 456-78-90</p>
+      <p>Email: GreenCorner@gmail.com</p>
+      <p>Адрес: г. Москва, ул. Примерная, д. 1</p>
+    </section>
+
+    <footer>
+      <p>&copy; 2024 Продажа жалюзи. Все права защищены.</p>
+    </footer>
+</body>
+</html>

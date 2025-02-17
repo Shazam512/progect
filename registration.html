@@ -1,0 +1,48 @@
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Регистрация</title>
+</head>
+<body>
+    <header>
+        <h1>Зеленый Уголок</h1>
+        <nav>
+            <ul>
+                <a href="index.html">Главная</a></li>
+                <a href="services.html">Услуги</a></li>
+                <a href="registration.html">Регистрация</a></li>
+                <a href="login.html">Авторизация</a></li>
+                <a href="consultation.html">Запись на консультацию</a></li>
+            </ul>
+        </nav>
+    </header>
+    <div>
+      <div class="modal-content">
+        <h2>Регистрация</h2>
+        <form action="register.php" method="POST">
+            <label for="name">Имя:</label>
+            <input type="text" id="name" name="name" required>
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" required>
+            <label for="password">Пароль:</label>
+            <input type="password" id="password" name="password" required>
+            <button type="submit">Зарегистрироваться</button>
+        </form>
+        <p>Вы уже зарегистрированны?</p>
+        <p>То можете войти в свой аккаунт:<a href="login.html">Войти!</a></p>
+      </div>
+    </div>
+    <section>
+      <h2>Контакты</h2>
+      <p>Телефон: +7 (123) 456-78-90</p>
+      <p>Email: GreenCorner@gmail.com</p>
+      <p>Адрес: г. Москва, ул. Примерная, д. 1</p>
+    </section>
+
+    <footer>
+      <p>&copy; 2024 Продажа жалюзи. Все права защищены.</p>
+    </footer>
+</body>
+</html>
